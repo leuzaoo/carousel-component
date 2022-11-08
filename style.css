@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section .card .image {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: blue;
+}
+
+.img-game {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card {
+  position: relative;
+  background: rgb(218, 226, 233);
+  border-radius: 20px;
+  margin: 20px 0;
+  width: 280px;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  height: 50%;
+  width: 100%;
+  background-color: blue;
+  border-radius: 20px 20px 0 0;
+}
+
+.card,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  z-index: 100;
+}
+
+.card .media-icons {
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card .media-icons i {
+  color: white;
+  opacity: 0.6;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.card .media-icons i:hover {
+  opacity: 1;
+}
+
+.name-profession span {
+  display: flex;
+  justify-content: center;
+}
+
+.media-icons,
+.name-profession {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-profession .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.name-profession .profession {
+  font-weight: 600;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.card .button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .button .about-me {
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease 0.3s;
+}
+
+.card .button .hire-me {
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease 0.3s;
+}
+
+.card .button .about-me:hover {
+  background-color: rgb(211, 210, 205);
+  border: 1px solid rgb(167, 167, 167);
+}
+
+.card .button .hire-me:hover {
+  background-color: rgb(211, 210, 205);
+  border: 1px solid rgb(167, 167, 167);
+}
