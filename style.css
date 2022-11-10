@@ -2,12 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: roboto;
+}
+
+body {
+  background-color: rgb(58, 58, 58);
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
 
 section .card .image {
@@ -101,6 +108,7 @@ section .card .image {
 .card .button {
   display: flex;
   justify-content: space-around;
+  gap: 8px;
 }
 
 .card .button .about-me {
@@ -108,10 +116,10 @@ section .card .image {
   color: white;
   font-size: 12px;
   font-weight: bold;
+  padding: 8px 8px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all ease 0.3s;
 }
 
@@ -120,19 +128,17 @@ section .card .image {
   color: white;
   font-size: 12px;
   font-weight: bold;
+  padding: 8px 8px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: all ease 0.3s;
 }
 
 .card .button .about-me:hover {
   background-color: rgb(211, 210, 205);
-  border: 1px solid rgb(167, 167, 167);
 }
 
 .card .button .hire-me:hover {
   background-color: rgb(211, 210, 205);
-  border: 1px solid rgb(167, 167, 167);
 }
