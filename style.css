@@ -13,8 +13,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100%;
 }
 
 section .card .image {
@@ -23,6 +21,10 @@ section .card .image {
   border-radius: 50%;
   padding: 3px;
   background: blue;
+}
+
+.swiper {
+  width: 950px;
 }
 
 .img-game {
@@ -113,25 +115,29 @@ section .card .image {
 
 .card .button .about-me {
   background-color: blue;
+  width: 100%;
   color: white;
   font-size: 12px;
   font-weight: bold;
-  padding: 8px 8px;
+  padding: 16px 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 25px;
+  border: none;
   transition: all ease 0.3s;
 }
 
 .card .button .hire-me {
   background-color: blue;
+  width: 100%;
   color: white;
   font-size: 12px;
   font-weight: bold;
-  padding: 8px 8px;
+  padding: 16px 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 25px;
+  border: none;
   transition: all ease 0.3s;
 }
 
