@@ -9,12 +9,11 @@ body {
   background-color: rgb(58, 58, 58);
 }
 
-.container {
-  margin-top: 20%;
+.mySwiper {
+  margin-top: 280px;
   display: flex;
-  height: 100%;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 section .card .image {
@@ -26,7 +25,16 @@ section .card .image {
 }
 
 .swiper {
-  width: 950px;
+  width: 1280px;
+}
+
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 25px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: orange;
 }
 
 .img-game {
